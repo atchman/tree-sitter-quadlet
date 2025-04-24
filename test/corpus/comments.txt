@@ -1,0 +1,24 @@
+==================
+comments only
+==================
+
+# comment text
+
+---
+
+(source_file
+  (comment))
+
+==================
+comments mixed
+==================
+
+# comment text
+; comment text
+
+---
+
+(source_file
+  (comment)
+  (comment))
+
